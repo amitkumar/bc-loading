@@ -25,12 +25,12 @@
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.9.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-babel": "^6.1.2",
     "pre-commit": "^1.1.3"
   },
   "scripts": {
-    "gulp-bundle": "gulp bundle",
+    "gulp-bundle": "./node_modules/.bin/gulp bundle",
     "git-add": "git add dist/loading.js"
   },
   "pre-commit": [
